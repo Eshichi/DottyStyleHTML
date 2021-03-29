@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+span,
+a {
+    font-family: "Open Sans", sans-serif !important;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.a-active {
+    color: yellow;
+    text-decoration: none;
+}
+body {
+    background-image: url("./images/backgroundimage.png");
+    height: 3237px;
+    background-size: cover;
+    margin: 0 !important;
+}
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 87px;
+}
+.vertical-line {
+    display: inline-block;
+    border-left: 2px solid rgb(117 117 117 / 26%);
+    margin: 0px 10px;
+    padding-bottom: 0px;
+    height: 35px;
+    position: relative;
+    top: 0;
+}
+
+.relative {
+    height: 30px;
+    position: relative;
+    padding: 29px;
+    text-align: center;
+    color: white;
+}
+
+.layout-slideshow,
+.layout-background,
+.layout-solutions,
+.layout-results,
+.layout-background {
+    height: 100vh;
+}
+.button-nav {
+    position: fixed;
+    right: 14px;
+    top: 405px;
+}
+.button-nav-active {
+    color: yellow !important;
+}
+.button {
+    border: none;
+    color: white;
+    padding: 5px;
+    font-size: 50px;
+    border-radius: 100%;
+}
+/* -------------------------------------------------- navbar */
+.navbar-section {
+    background-color: #333333;
+    height: 30px;
+    position: fixed;
+    width: 100%;
+    z-index: 25;
+    padding: 29px;
+    text-align: center;
+    color: white;
+}
+
+.navbar-section > a {
+    position: relative;
+    top: -15px;
+}
+
+.navbar-section > a:nth-child(9) {
+    margin-right: 225px !important;
+}
+.navbar-section > button {
+    background-color: #282828;
+    border-radius: 6px;
+    text-align: center;
+    border: none;
+    color: whitesmoke;
+    border: none;
+    padding: 13px;
+    position: relative;
+    top: -15px;
+}
+.navbar-section > button > i {
+    font-size: 12px !important;
+    padding: 4px !important;
+}
+/*  end navbar */
+/* -------------------------------------------------- slide */
+.slideshow-content > img {
+    position: relative;
+    top: 357px;
+    left: 110px;
+}
+
+/*  end back slide */
+
+/* -------------------------------------------------- BG */
+.background-content > img {
+    position: relative;
+    top: 357px;
+    left: 150px;
+}
+.background-text {
+    position: absolute;
+    right: 444px;
+}
+.background-text > .bg-title {
+    position: relative;
+    font-size: 50px;
+    color: white;
+}
+.background-text > .bg-text {
+    position: relative;
+    font-size: 16px;
+    color: rgb(189, 189, 189);
+    margin-bottom: 50px;
+}
+.background-text > span:nth-child(1) {
+    top: 0px;
+}
+
+.background-text > span:nth-child(3) {
+    top: 10px;
+}
+
+.background-text > span:nth-child(5) {
+    top: 60px;
+}
+
+.background-text > span:nth-child(7) {
+    top: 80px;
+}
+.background-text > span:nth-child(9) {
+    top: 130px;
+}
+.background-text > span:nth-child(11) {
+    top: 140px;
+}
+
+/*  end BG */
+
+/* -------------------------------------------------- solutions*/
+.solutions-content > span {
+    position: absolute;
+    font-size: 70px;
+    color: white;
+    left: 800px;
+}
+.solutions-content > .solutions-text {
+    position: absolute;
+    left: 400px;
+    font-size: 16px;
+    color: rgb(218, 218, 218);
+}
+
+.solutions-content > .solutions-text > span:nth-child(1) {
+    position: relative;
+    top: 100px;
+}
+.solutions-content > .solutions-text > span:nth-child(3) {
+    position: relative;
+    top: 120px;
+}
+.solutions-content > .solutions-text > span:nth-child(5) {
+    position: relative;
+    font-size: 30px;
+    color: white;
+    top: 140px;
+}
+.solutions-content > .solutions-text > span:nth-child(7) {
+    position: relative;
+    top: 160px;
+}
+
+.solutions-content > .solutions-text-2 {
+    position: absolute;
+    left: 978px;
+    font-size: 16px;
+    color: rgb(218, 218, 218);
+}
+
+.solutions-content > .solutions-text-2 > span:nth-child(1) {
+    position: relative;
+    top: 100px;
+}
+.solutions-content > .solutions-text-2 > span:nth-child(3) {
+    position: relative;
+    top: 120px;
+}
+.solutions-content > .solutions-text-2 > span:nth-child(5) {
+    position: relative;
+    top: 140px;
+}
+.solutions-content > .solutions-text-2 > span:nth-child(7) {
+    position: relative;
+    top: 160px;
+}
+/* end solutions */
+
+/* -------------------------------------------------- slide*/
+
+.layout-results {
+    background-color: #1b4a5d;
+}
+
+.results-navbar-section {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
+.results-navbar-section span {
+    margin-right: 30px;
+}
+.results-video-content,
+.results-photo-content,
+.results-social-content,
+.results-pr-content,
+.results-radio-content {
+    padding-top: 10px;
+}
+
+.results-video-content > img {
+    position: absolute;
+    left: 473px;
+}
+
+.results-photo-content > img {
+    position: absolute;
+    left: 734px;
+}
+
+.results-social-content > img {
+    position: absolute;
+    left: 496px;
+    padding: 22px;
+    background-color: black;
+    border-radius: 2px;
+}
+
+.results-pr-content > img {
+    position: absolute;
+    left: 653px;
+}
+
+.results-radio-content > .radio-item {
+    position: absolute;
+    left: 603px;
+    background-color: black;
+    width: 500px;
+    height: 300px;
+}
+
+.results-video-content > span,
+.results-photo-content > span,
+.results-social-content > span,
+.results-pr-content > span,
+.results-radio-content > span {
+    position: absolute;
+    left: 1200px;
+    color: white;
+}
+
+/* end slide*/
+.hide-content {
+    display: none;
+}
+
+.button-slide {
+    position: relative;
+    left: 717px;
+    top: 421px;
+}
+
+.results-items > button {
+    position: relative;
+    left: 1200px;
+    top: 350px;
+    background-color: hsl(199deg 79% 42%);
+    padding: 20px 48px;
+    border-radius: 14px;
+    color: white;
+    border: none;
+}
